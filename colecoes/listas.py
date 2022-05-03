@@ -4,7 +4,7 @@ list3 = []
 list4 = list(range(11))
 list5 = list('Andre Silveira')
 
-'''
+
 # Achar um valor na lista
 number = 55
 if number in list4:
@@ -201,4 +201,3 @@ print(new)
 new.append(4)
 print(list)
 print(new)
-'''
