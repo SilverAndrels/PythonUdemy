@@ -12,15 +12,15 @@ print(tuple2)
 print(type(tuple2))
 
 # Cuidado 2: Tupla com 1 elemento
-tuple3 = (4) # É considerado como int, não como tupla
+tuple3 = (4)  # É considerado como int, não como tupla
 print(tuple3)
 print(type(tuple3))
 
-tuple4 = (4,) # Já esse é considerado uma tupla de um elemento
+tuple4 = (4,)  # Já esse é considerado uma tupla de um elemento
 print(tuple4)
 print(type(tuple4))
 
-tuple5 = 4, # Também é uma tupla, o mais importante é a vírgula
+tuple5 = 4,  # Também é uma tupla, o mais importante é a vírgula
 print(tuple5)
 print(type(tuple5))
 
@@ -60,7 +60,7 @@ print(tuple1 + tuple2)
 print(tuple1)
 print(tuple2)
 
-tuple1 += tuple2 # Podemos sobrescrever seus valores
+tuple1 += tuple2  # Podemos sobrescrever seus valores
 print(tuple1)
 
 # Verificar se há determinado elemento na tupla
@@ -82,8 +82,8 @@ print(tuple1.count('a'))
 # Dicas na utilização de tuplas
 # Sempre que não precisarmos mudar os dados usamos tuplas
 # Exemplo
-months = ('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September'
-         , 'October', 'November', 'December')
+months = ('January', 'February', 'March', 'April', 'May', 'June',
+          'July', 'August', 'September', 'October', 'November', 'December')
 # O acesso aos itens de uma tupla são semelhantes ao de uma lista
 print(months[5])
 
@@ -96,15 +96,15 @@ while i < len(months):
 # Verificar em qual índice está o elemento
 print(months.index('August'))
 
-months = ('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September'
-         , 'October', 'November', 'December')
+months = ('January', 'February', 'March', 'April', 'May', 'June',
+          'July', 'August', 'September', 'October', 'November', 'December')
 # Slicing
 # tupla[inicio::fim::passo]
 print(months[5:9])
 
 # Por quê utilizar tuplas ?
 # - Tuplas são mais rápidas que listas
-# - Tuplas deixam seu código mais seguro, já que são imutáveis 
+# - Tuplas deixam seu código mais seguro, já que são imutáveis
 
 # Copiando uma tupla para outra
 tuple1 = (1, 2, 3)

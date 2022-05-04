@@ -106,7 +106,7 @@ while product != 'exit':
 
 for product in package:
     print(f"The products are {product}")
-    
+
 # Utilizando variáveis em listas
 numbers = [1, 2, 3, 4, 5]
 
@@ -134,7 +134,7 @@ print(colors[-4])
 # Gerar índice em um for
 for i, color, in enumerate(colors):
     print(i, color)
-     
+
 # Outros métodos úteis
 
 # Encontrar o índice de um elemento na lista
@@ -145,19 +145,19 @@ numbers = [5, 6, 2, 3, 1, 10, 22, 22]
 print(numbers.index(22))
 
 # Fazer busca dentro de um range 'dizendo' com o segundo valor, por qual índice começar
-print(numbers.index(2, 1)) # Buscando a partir do índice 1
+print(numbers.index(2, 1))  # Buscando a partir do índice 1
 # Fazendo uma busca dentro de um range 'dizendo' inicio/fim
-print(numbers.index(6, 0, 3)) # Busca o 6 entre o índice 0 e 3
+print(numbers.index(6, 0, 3))  # Busca o 6 entre o índice 0 e 3
 
 # Slice de lista com o parâmetro 'inicio'
 list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-print(list[1:]) # Inicia no índice 1 e vai pegando todos os outros elementos
+print(list[1:])  # Inicia no índice 1 e vai pegando todos os outros elementos
 # Slice de lista com o parâmetro 'fim'
-print(list[:2]) # Inicia em 0 e vai até o índice 2 -1
-print(list[1:3]) # Inicia em 1 e vai até o índice 3 -1
+print(list[:2])  # Inicia em 0 e vai até o índice 2 -1
+print(list[1:3])  # Inicia em 1 e vai até o índice 3 -1
 # Slice de lista com o parâmetro 'passo'
-print(list[1::2]) # Inicia em 1 e vai até o fim de 2 em 2
-print(list[::-1]) # Inicia em 0 e iverte a lista voltando de -1 em -1
+print(list[1::2])  # Inicia em 1 e vai até o fim de 2 em 2
+print(list[::-1])  # Inicia em 0 e iverte a lista voltando de -1 em -1
 
 # Soma, Valor Máximo, Valor Mínimo, Tamanho
 list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
