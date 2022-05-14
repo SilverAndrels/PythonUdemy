@@ -1,5 +1,5 @@
 ''''
-verifica um número inteiro e mostra se é divisivel por 3 ou por 5 mas nao
+verifica um número inteiro e mostra se é divisivel por 3 ou por 5 mas não
 simultaneamente pelos dois
 '''
 num = 0
