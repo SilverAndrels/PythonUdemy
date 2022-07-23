@@ -23,11 +23,20 @@ print(colors)
 
 colors.append('cyan blue')
 print(colors)
-'''
-# Como definir funções
 
+# Como definir funções
+'''
 Forma geral de definir uma função
 
 def nome_da_funcao(parametros_de_entrada):
     bloco_da_funcao
 '''
+# Utilizando funções
+
+def say_hi():
+    print('hi')
+    
+# Chamando a função
+# Sem o parênteses a função não é executada!
+say_hi()
+
