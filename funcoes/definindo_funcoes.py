@@ -1,4 +1,5 @@
 '''
+
 Definindo Funções
 
 - Funções são pequenas partes de código que realizam tarefas específicas;
@@ -11,7 +12,7 @@ Funções  já utilizadas;
 - max()
 - count()
 etc...
-
+'''
 # Exemplo utilizando funções
 
 colors = ['green', 'yellow', 'blue', 'white']
@@ -25,7 +26,6 @@ print(colors)
 '''
 # Como definir funções
 
-'''
 Forma geral de definir uma função
 
 def nome_da_funcao(parametros_de_entrada):
