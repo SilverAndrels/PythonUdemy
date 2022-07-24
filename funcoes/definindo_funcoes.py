@@ -1,5 +1,4 @@
 '''
-
 Definindo Funções
 
 - Funções são pequenas partes de código que realizam tarefas específicas;
@@ -13,6 +12,7 @@ Funções  já utilizadas;
 - count()
 etc...
 '''
+
 # Exemplo utilizando funções
 
 colors = ['green', 'yellow', 'blue', 'white']
@@ -40,3 +40,13 @@ def say_hi():
 # Sem o parênteses a função não é executada!
 say_hi()
 
+# Funções com retorno
+
+def square_of_7():
+    return 7 * 7
+
+ret = square_of_7()
+
+print(f'Return {ret}')
+# ou
+print(f'Return {square_of_7()}') # Melhor jeito
