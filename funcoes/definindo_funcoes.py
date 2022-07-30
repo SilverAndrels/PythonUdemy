@@ -41,6 +41,7 @@ def say_hi():
 say_hi()
 
 # Funções com retorno
+# - O return finaliza a função, nada após ele é executado
 
 def square_of_7():
     return 7 * 7
@@ -50,3 +51,34 @@ ret = square_of_7()
 print(f'Return {ret}')
 # ou
 print(f'Return {square_of_7()}') # Melhor jeito
+
+# Neste caso abaixo ele retorna o 4.
+
+def new_function():
+    var = True
+    if var:
+        return 4
+    elif var is None:
+        return 3.2
+    return 'b'
+
+print(new_function())
+
+
+def other_function():
+    return 2, 3, 4, 5
+
+n1, n2, n3, n4 = other_function()
+
+print(n1, n2, n3, n4)
+
+# Função "joga moeda"
+
+from random import random as r
+
+def throw_coin():
+    if r() > 0.5:
+        return 'Cara'
+    return 'Coroa'
+
+print(throw_coin())
