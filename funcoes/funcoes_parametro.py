@@ -5,7 +5,6 @@
 
 # Refatorando uma função
 
-'''
 def square_of_7():
     return 7 * 7
 
@@ -24,7 +23,6 @@ def square(number):
     return number ** 2
 
 print(square(number))
-'''
 
 # Funções podem ter n parâmetros de entrada. Ou seja, podemos receber como entrada
 # em uma função quantos parâmetros forem necessários. Eles são separados por vírgula.
