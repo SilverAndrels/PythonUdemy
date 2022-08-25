@@ -41,3 +41,8 @@ numeros = [1, 2, 3, 4, 5, 6, 7]
 
 # Desempacotador para funcionar a lista números com o retorno tupla do args
 print(soma_todos_os_numeros(*numeros))
+'''
+OBS: O asterisco  serve para 'informar' ao python que estamos
+passando como argumento uma coleção de dados.
+desta forma ele saberá que precisa desempacotar estes dados antes de usar
+'''
