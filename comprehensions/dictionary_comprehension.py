@@ -26,3 +26,5 @@ numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 99, 21]
 
 res = {num: ('par' if not num % 2 else 'impar') for num in numeros}
 print(res)
+
+print({x: x ** 2 for x in range(10)})
