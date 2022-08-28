@@ -39,3 +39,4 @@ cidades = [('São Paulo', 30), ('Berlim', 24), ('Kiev', 5), ('Curitiba', 10)]
 c_para_f = lambda c: (c[0], round((9/5) * c[1] + 32))
 
 print(list(map(c_para_f, cidades)))
+
