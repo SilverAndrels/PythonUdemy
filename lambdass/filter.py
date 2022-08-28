@@ -64,6 +64,6 @@ print(inativos)
 nomes = ['Vanessa', 'Ana', 'Maria', 'Raimunda']
 
 #retorna uma lista com o nome da instrutora se tiver menos de 5 letras
-instrutora = list(map(lambda n: f'Sua instrutora é a: {n}', filter(lambda n: len(n) < 5, nomes)))
+instrutora = list(map(lambda n: f'Sua instrutora é a: {n}', filter(lambda n: len(n) < 5, nomes))
 print(instrutora)
 
