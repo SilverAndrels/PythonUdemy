@@ -37,8 +37,8 @@ numeros_dobrados = []
 
 for num in numeros:
     numeros_dobrados.append(num * 2)
-    
-print(numeros_dobrados)    
+
+print(numeros_dobrados)
 
 # List Comprehension
 print([num * 2 for num in numeros])
@@ -62,3 +62,4 @@ print([num * 3 for num in range(1, 10)])
 
 # 4
 print([str(numero) for numero in [1, 2, 3, 4, 5]])
+
