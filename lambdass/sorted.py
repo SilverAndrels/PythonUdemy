@@ -6,6 +6,7 @@ Não confundir com a função sort() -> esse só funciona em listas
 Podemos utilizar o sorted() com qualquer iterável
 Como o nome já diz, sorted() é usado para ordenar
 O sorted() sempre rertorna uma lista
+"""
 
 # Exemplo
 numeros = [6, 1, 8, 2]
@@ -36,8 +37,6 @@ print(sorted(usuarios, key=lambda usuario: usuario["username"]))
 # Ordenando pelo número de tweets -> maior pro menor -> para fazer o contrário reverse=True
 print('\n', sorted(usuarios, key=lambda usuario: len(usuario["tweets"])))
 
-
-"""
 
 # Último exemplo
 
