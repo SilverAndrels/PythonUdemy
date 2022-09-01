@@ -2,7 +2,7 @@
 Generators
 
 Tuple Comprehensions se chamam na vdd Generators
-
+"""
 nomes = ['Carlos', 'Camila', 'Carla', 'Cassiano', 'Cristina', 'Vanessa']
 
 print(any([nome[0] == 'C' for nome in nomes]))
@@ -23,8 +23,6 @@ from sys import getsizeof
 
 # Mostrando quantos bytes a string abaixo tem em memória
 print(getsizeof('Andre Silveira'))
-
-"""
 
 from sys import getsizeof
 
