@@ -5,3 +5,4 @@ Ordem correta de declaração nas funções:
 - *args
 - Parâmetros default (não obrigatórios)
 - **kwargs
+.
