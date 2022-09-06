@@ -6,6 +6,8 @@ raise é útil para que criarmos nossas próprias exceções e mensagens de erro
 
 Utilização geral é:
 raise TipoDoErro('mensasgem de erro')
+
+O raise finaliza a função assim como o return 
 """
 
 # Exemplo
