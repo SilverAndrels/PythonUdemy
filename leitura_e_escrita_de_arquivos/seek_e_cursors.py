@@ -1,6 +1,6 @@
 """
 seek() -> utilizada para movimentar o cursor pelo arquivo
-
+"""
 arquivo = open('txt.txt')
 print(arquivo.read())
 
@@ -20,7 +20,7 @@ linhas = arquivo.readlines()
 
 print(len(linhas))
 
-"""
+
 # Abrindo o arquivo
 arquivo = open('txt.txt')
 
