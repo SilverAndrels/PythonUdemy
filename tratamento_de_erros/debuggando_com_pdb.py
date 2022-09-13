@@ -31,4 +31,3 @@ nome_completo = nome + ' ' + sobrenome
 curso = 'Python'
 final = nome_completo + ' faz o curso de ' + curso
 print(final)
-
