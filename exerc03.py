@@ -1,6 +1,7 @@
 ''''
 pede um número ao usuário e imprime a soma de cada caractere 251 (2 + 5 + 1) = 8
 '''
+
 soma = 0
 # pedindo um número inteiro maior que zero ao usuário
 num = input("Digite um número inteiro: ")
