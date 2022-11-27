@@ -35,7 +35,7 @@ def nome_da_funcao(parametros_de_entrada):
 
 def say_hi():
     print('hi')
-    
+
 # Chamando a função
 # Sem o parênteses a função não é executada!
 say_hi()
